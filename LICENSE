@@ -1,13 +1,32 @@
-MIT License
+QuiBot_IA-3Dmechatronic - Multi-Licensing Policy
 
-Copyright (c) 2026 quibot-dev
+Copyright (c) 2026 Marta Tarrés, Toni Dorado, Marc Llansó Alonso 
+Grup de Recerca RISS - Universitat Politècnica de Catalunya (UPC)
+Projecte finançat per la Generalitat de Catalunya (IFE038/24/000087)
+
+Aquest repositori utilitza una política de llicència múltiple segons la naturalesa del contingut:
+
+--------------------------------------------------------------------------------
+1. HARDWARE (/hardware)
+--------------------------------------------------------------------------------
+Tots els fitxers de disseny de hardware (esquemàtics, dissenys de PCB, Gerbers i models CAD 3D) 
+estan llicenciats sota la CERN Open Hardware Licence Version 2 - Permissive (CERN-OHL-P-2.0).
+
+Text complet de la llicència: https://ohwr.org/cernohl
+
+--------------------------------------------------------------------------------
+2. FIRMWARE & SOFTWARE (/firmware)
+--------------------------------------------------------------------------------
+Tot el codi font i el software inclòs en aquest repositori està llicenciat sota la MIT License.
+
+MIT License:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, and to permit persons to whom it is furnished to do so,
+subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -19,3 +38,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--------------------------------------------------------------------------------
+3. DOCUMENTACIÓ I IMATGES (/docs, README.md)
+--------------------------------------------------------------------------------
+Tota la documentació, imatges, manuals i esquemes explicatius estan llicenciats sota la 
+ Creative Commons Reconeixement 4.0 Internacional (CC BY 4.0).
+
+Text complet de la llicència: https://creativecommons.org/licenses/by/4.0/deed.ca

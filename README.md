@@ -19,7 +19,7 @@ Documentació oficial i codi del Projecte QuiBot (UPC).
 
 Aquest projecte és Open Hardware i utilitza les llicències següents:
 
-* **Hardware (`/hardware`):** [CERN-OHL-P-2.0](https://ohwr.org/cernohl)
+* **Hardware (`/hardware`):** [CERN-OHL-S-2.0](https://ohwr.org/cernohl)
 * **Firmware (`/firmware`):** [MIT License](https://opensource.org/licenses/MIT)
 * **Documentació (`/docs`):** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ca)
 

@@ -39,3 +39,8 @@ Aquest projecte és Open Hardware i utilitza les llicències següents:
 * **Investigadors Principals:** Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
 * **Desenvolupament i Integració (TFG/TFM):** Marc LLansó Alonso i Pol Camprubí Trujillo
 * **Finançament:** Projecte finançat pel Departament d'Igualtat i Feminismes de la Generalitat de Catalunya (`IFE038/24/000087`).
+
+## Imatge del Robot i dels seus conjunts
+<img width="648" height="874" alt="Robot" src="https://github.com/user-attachments/assets/3762e8e7-a047-4555-81c8-55c4d867936c" />
+<img width="542" height="676" alt="Conjunts Robot" src="https://github.com/user-attachments/assets/c1d9e02c-fbe7-4a4b-8274-3f51b7b4b018" />
+

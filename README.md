@@ -37,5 +37,5 @@ Aquest projecte és Open Hardware i utilitza les llicències següents:
 ## 👥 Autors, Equip i Agraïments
 
 * **Investigadors Principals:** Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
-* **Desenvolupament i Integració (TFG/TFM):** Marc LLansó Alonso.
+* **Desenvolupament i Integració (TFG/TFM):** Marc LLansó Alonso i Pol Camprubí Trujillo
 * **Finançament:** Projecte finançat pel Departament d'Igualtat i Feminismes de la Generalitat de Catalunya (`IFE038/24/000087`).

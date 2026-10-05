@@ -1,0 +1,28 @@
+[Unit]
+Description=Quibot voice interaction service
+Wants=network-online.target
+After=network-online.target NetworkManager-wait-online.service sound.target
+ConditionPathExists=@PROJECT_DIR@/.env
+ConditionPathExists=@PROJECT_DIR@/models/vosk-model-small-ca-0.4
+
+[Service]
+Type=simple
+User=@SERVICE_USER@
+Group=@SERVICE_GROUP@
+SupplementaryGroups=audio dialout
+WorkingDirectory=@PROJECT_DIR@
+Environment=PYTHONUNBUFFERED=1
+ExecStartPre=@PROJECT_DIR@/deploy/wait-for-quibot-devices.sh
+ExecStart=@PROJECT_DIR@/venv/bin/python -m robot_poc
+Restart=no
+KillSignal=SIGINT
+TimeoutStopSec=20
+StandardOutput=journal
+StandardError=journal
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

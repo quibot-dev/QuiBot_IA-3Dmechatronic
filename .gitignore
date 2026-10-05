@@ -1,0 +1,54 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Python environments and generated files
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Runtime data and downloaded models
+logs/
+output/
+tmp/
+models/
+*.log
+
+# Local editor metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary CAD and electronics files
+~$*
+*.bak
+*.tmp
+*.autosave
+*.lck
+*.lock
+*.swp
+*.swo
+*-backups/
+_autosave-*
+*.kicad_prl
+*.kicad_pro-lock
+
+# Arduino build output
+*.elf
+*.hex
+*.eep
+*.map

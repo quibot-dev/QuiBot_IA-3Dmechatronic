@@ -12,7 +12,7 @@ Aquest repositori conté la documentació, els fitxers mecànics, el firmware i 
 
 ## 📁 Estructura del Repositori
 
-* **`/hardware`**: Esquemàtics, dissenys de PCB (KiCad), fitxers Gerber i models CAD 3D (`.STEP`, `.STL`).
+* **`/hardware`**: Esquemes elèctrics elaborats amb KiCad i models CAD 3D (`.STEP`, `.STL`).
 * **`/firmware`**: Codi font per al microcontrolador i instruccions de compilació.
 * **`/software`**: Programari Python executat a la Raspberry Pi per gestionar la veu, la conversa i les accions del robot.
 * **`/bom`**: Llista detallada de components (*Bill of Materials*), proveïdors i costos estimats.
@@ -24,6 +24,7 @@ Aquest repositori conté la documentació, els fitxers mecànics, el firmware i 
 
 * Raspberry Pi OS de 64 bits i Python 3.9 o posterior.
 * Arduino IDE 2.x i biblioteca `Servo`.
+* KiCad 10 per obrir i modificar els esquemes elèctrics.
 * Model català de Vosk i clau de l'API d'OpenAI per al sistema d'interacció per veu.
 * Programari CAD compatible amb fitxers `.STEP` i `.STL`.
 

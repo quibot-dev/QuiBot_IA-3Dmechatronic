@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-poc"
+version = "0.1.0"
+description = "Programari de control per veu del robot educatiu Quibot"
+requires-python = ">=3.9"
+dependencies = [
+  "openai[realtime]>=2.30.0,<3",
+  "pyserial>=3.5,<4",
+  "python-dotenv>=1.0.1,<2",
+  "sounddevice>=0.5.2,<0.6",
+  "vosk>=0.3.45,<0.4",
+]
+
+[project.scripts]
+robot-poc = "robot_poc.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["robot_poc*"]

@@ -1,0 +1,24 @@
+# Python i configuració local
+.env
+.venv/
+.venv-win/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+logs/
+# Fitxers de compilació
+build/
+dist/
+.pio/
+# Fitxers temporals de CAD i electrònica
+~$*
+*.bak
+*.tmp
+*.autosave
+*-backups/
+fp-info-cache
+*.lck
+# Fitxers del sistema operatiu
+.DS_Store
+Thumbs.db

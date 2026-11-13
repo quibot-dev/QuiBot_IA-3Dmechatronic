@@ -1,0 +1,6 @@
+distance_m,trials,wake_detected,understood,repeat_requests
+0.25,20,,,
+0.5,20,,,
+1,20,,,
+2,20,,,
+false_activations,30,,,

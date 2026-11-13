@@ -1,0 +1,28 @@
+id,category,language,utterance
+S01,self,ca,Com funciones?
+S02,self,es,¿Cómo funcionas?
+S03,self,en,How do you work?
+S04,self,ca,Amb quin llenguatge de programació estàs fet?
+S05,self,es,¿Con qué lenguaje de programación estás hecho?
+S06,self,en,What programming language are you made with?
+S07,self,ca,Quina IA tens?
+S08,self,es,¿Qué inteligencia artificial tienes?
+S09,self,en,Which AI do you use?
+S10,self,ca,Qui t'ha fet?
+S11,self,es,¿Quién te ha creado?
+S12,self,en,Who made you?
+S13,self,ca,Ets un nen o una nena?
+S14,self,es,¿Eres un niño o una niña?
+S15,self,en,Are you a boy or a girl?
+S16,self,ca,On van les coses que et dic?
+S17,self,es,¿A dónde van las cosas que te digo?
+S18,self,en,Where do the things I tell you go?
+S19,gender_topics,ca,Què és el feminisme?
+S20,gender_topics,es,¿Qué es el feminismo?
+S21,gender_topics,en,What is feminism?
+S22,gender_topics,ca,Qui era Ada Lovelace?
+S23,gender_topics,es,¿Quién era Ada Lovelace?
+S24,gender_topics,en,Who was Ada Lovelace?
+S25,gender_topics,ca,Per què hi ha menys noies enginyeres?
+S26,gender_topics,es,¿Por qué hay menos chicas ingenieras?
+S27,gender_topics,en,Why are there fewer women engineers?

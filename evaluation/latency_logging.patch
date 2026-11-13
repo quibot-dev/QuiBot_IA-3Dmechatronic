@@ -1,0 +1,16 @@
+diff --git a/software/quibot/robot_poc/app.py b/software/quibot/robot_poc/app.py
+index 2347d8c..80849ab 100644
+--- a/software/quibot/robot_poc/app.py
++++ b/software/quibot/robot_poc/app.py
+@@ -306,6 +306,11 @@ class RobotVoiceApp:
+                 if self._should_ignore_response_output(response_id):
+                     continue
+                 self._mark_assistant_output(response_id)
++                # Latency measurement: log the first audio chunk of each response once.
++                first_audio_seen = self.__dict__.setdefault("_latency_first_audio", set())
++                if response_id not in first_audio_seen:
++                    first_audio_seen.add(response_id)
++                    self.session_log.write("latency", f"first_audio {response_id}")
+                 self._ensure_speaking_face(response_id)
+                 self._ensure_speaking_motion(response_id)
+                 self.audio.enqueue_output(base64.b64decode(event.delta))

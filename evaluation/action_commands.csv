@@ -1,0 +1,66 @@
+id,category,language,utterance,expected_tool,expected_param
+A01,command,ca,Podem parlar en anglès?,robot_set_language,language=en
+A02,command,ca,"Parla'm en castellà, si us plau.",robot_set_language,language=es
+A03,command,es,¿Podemos hablar en catalán?,robot_set_language,language=ca
+A04,command,es,"Habla en inglés, por favor.",robot_set_language,language=en
+A05,command,en,Can we speak in Catalan?,robot_set_language,language=ca
+A06,command,en,Please switch to Spanish.,robot_set_language,language=es
+A07,command,ca,Avança una mica.,robot_walk,direction=forward
+A08,command,ca,Gira a l'esquerra.,robot_walk,direction=left
+A09,command,ca,Ves enrere.,robot_walk,direction=backward
+A10,command,es,Avanza un poco.,robot_walk,direction=forward
+A11,command,es,Gira a la derecha.,robot_walk,direction=right
+A12,command,en,Move forward a little.,robot_walk,direction=forward
+A13,command,en,Turn left.,robot_walk,direction=left
+A14,command,en,Go backwards.,robot_walk,direction=backward
+A15,command,ca,Saluda!,robot_greet|robot_perform_gesture,
+A16,command,ca,Fes adeu amb la mà.,robot_greet|robot_perform_gesture,
+A17,command,es,Saluda a los niños.,robot_greet|robot_perform_gesture,
+A18,command,es,Despídete con la mano.,robot_greet|robot_perform_gesture,
+A19,command,en,Say hello with your hand.,robot_greet|robot_perform_gesture,
+A20,command,en,Wave goodbye.,robot_greet|robot_perform_gesture,
+A21,command,ca,Fes el gest d'entusiasme.,robot_perform_gesture|robot_greet,
+A22,command,ca,Fes que sí amb el cap.,robot_perform_gesture,gesture=yes
+A23,command,ca,Fes que no.,robot_perform_gesture,gesture=no
+A24,command,ca,Fes veure que dorms.,robot_perform_gesture|robot_set_face,
+A25,command,es,Haz el gesto de pensar.,robot_perform_gesture,gesture=thinking
+A26,command,en,Nod yes.,robot_perform_gesture,gesture=yes
+A27,command,en,Shake your head no.,robot_perform_gesture,gesture=no
+A28,command,en,Show me you are thinking.,robot_perform_gesture|robot_set_face,
+A29,command,ca,Obre la pinça.,robot_move_joint,movement=open_gripper
+A30,command,ca,Tanca la pinça.,robot_move_joint,movement=close_gripper
+A31,command,ca,Aixeca el braç.,robot_move_joint,movement=raise_shoulder
+A32,command,ca,Baixa el braç.,robot_move_joint,movement=lower_shoulder
+A33,command,es,Abre la pinza.,robot_move_joint,movement=open_gripper
+A34,command,es,Gira la muñeca a la izquierda.,robot_move_joint,movement=turn_wrist_left
+A35,command,en,Close your gripper.,robot_move_joint,movement=close_gripper
+A36,command,en,Raise your arm.,robot_move_joint,movement=raise_shoulder
+A37,command,ca,Atura't!,robot_stop,
+A38,command,ca,Para!,robot_stop,
+A39,command,es,¡Quieto!,robot_stop,
+A40,command,es,¡Detente!,robot_stop,
+A41,command,en,Stop!,robot_stop,
+A42,command,ca,Posa't content.,robot_set_face,expression=happy
+A43,command,ca,Posa't trist.,robot_set_face,expression=sad
+A44,command,ca,Posa't enfadat.,robot_set_face,expression=angry
+A45,command,ca,Fes cara de sorpresa.,robot_set_face,expression=surprised
+A46,command,es,Pon cara de confundido.,robot_set_face,expression=confused
+A47,command,es,Guiña un ojo.,robot_set_face,expression=wink
+A48,command,en,Look happy.,robot_set_face,expression=happy
+A49,command,en,Make an angry face.,robot_set_face,expression=angry
+A50,command,en,Show me a sleepy face.,robot_set_face,expression=sleepy
+A51,non_command,ca,Quin és el teu color preferit?,,
+A52,non_command,ca,M'agrada molt la química.,,
+A53,non_command,ca,Què és l'aigua?,,
+A54,non_command,ca,Avui fa sol.,,
+A55,non_command,es,¿Cuántos años tienes?,,
+A56,non_command,es,Me gusta jugar al fútbol.,,
+A57,non_command,es,¿Qué es un robot?,,
+A58,non_command,en,What is your favorite animal?,,
+A59,non_command,en,I had pizza for lunch.,,
+A60,non_command,en,Tell me a fun fact about chemistry.,,
+A61,language_mention,ca,Com es diu gat en anglès?,,
+A62,language_mention,ca,La meva àvia parla castellà.,,
+A63,language_mention,es,¿Cómo se dice hola en inglés?,,
+A64,language_mention,en,My teacher speaks Catalan.,,
+A65,language_mention,en,How do you say water in Spanish?,,
